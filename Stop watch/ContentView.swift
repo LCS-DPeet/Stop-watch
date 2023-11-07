@@ -12,16 +12,16 @@ struct ContentView: View {
         ZStack {
             
             // first layer (background)
-            Color.yellow
+            Color.black
                 .ignoresSafeArea()
             
             //second layer (rest of interface)
             VStack {
-                Image(systemName: "globe")
-                    .imageScale(.large)
-                    .foregroundColor(.accentColor)
-                Text("Hello, world!")
+              Text("00:09.96")
+                    .font(Font.system(size: 90, weight: .thin))
+                    .foregroundColor(.white)
             }
+            
             .padding()
         }
     }
