@@ -14,6 +14,7 @@
 		C1F986F82AF9D16A005CF436 /* Stop_watchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F986F72AF9D16A005CF436 /* Stop_watchTests.swift */; };
 		C1F987022AF9D16A005CF436 /* Stop_watchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F987012AF9D16A005CF436 /* Stop_watchUITests.swift */; };
 		C1F987042AF9D16A005CF436 /* Stop_watchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F987032AF9D16A005CF436 /* Stop_watchUITestsLaunchTests.swift */; };
+		C1F987112AF9D7AF005CF436 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F987102AF9D7AF005CF436 /* CircleButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C1F986FD2AF9D16A005CF436 /* Stop watchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stop watchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F987012AF9D16A005CF436 /* Stop_watchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop_watchUITests.swift; sourceTree = "<group>"; };
 		C1F987032AF9D16A005CF436 /* Stop_watchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop_watchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C1F987102AF9D7AF005CF436 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				C1F986E82AF9D168005CF436 /* ContentView.swift */,
 				C1F986EA2AF9D16A005CF436 /* Assets.xcassets */,
 				C1F986EC2AF9D16A005CF436 /* Preview Content */,
+				C1F987102AF9D7AF005CF436 /* CircleButtonView.swift */,
 			);
 			path = "Stop watch";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1F986E92AF9D168005CF436 /* ContentView.swift in Sources */,
+				C1F987112AF9D7AF005CF436 /* CircleButtonView.swift in Sources */,
 				C1F986E72AF9D168005CF436 /* Stop_watchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
